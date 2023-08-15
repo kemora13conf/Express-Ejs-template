@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'main';
+    src: url('/assets/fonts/Salernomi-J/9SALERNO.TTF');
+}
+*{
+    scroll-behavior: smooth;
+}
+
+.header-hidden{
+    top: -70px !important;
+    transform: rotateX(90deg) !important;
+}
+
+.perpspective{
+    transform: perspective(70px);
+}
+
+.transition-300{
+    transition: all 300ms ease-in-out;
+}
+.transition-500{
+    transition: all 500ms ease-in-out;
+}
+.transition-700{
+    transition: all 700ms ease-in-out;
+}
+.transition-1000{
+    transition: all 1000ms ease-in-out;
+}
